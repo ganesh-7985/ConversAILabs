@@ -2,6 +2,7 @@
 
 A minimal Supabase backend for a personal "notes" service.
 
+
 ## Setup & Deployment
 
 1. Create a new Supabase project at [https://app.supabase.com](https://app.supabase.com)
@@ -14,6 +15,10 @@ A minimal Supabase backend for a personal "notes" service.
    supabase functions deploy post_notes
    supabase functions deploy get_notes
    ```
+
+## Edge Functions
+Post Note - https://afdkjwrmlcitvebwjloe.supabase.co/functions/v1/post_notes
+Get Note - https://afdkjwrmlcitvebwjloe.supabase.co/functions/v1/get_notes
 
 ## Schema Design
 
